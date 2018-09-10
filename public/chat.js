@@ -44,7 +44,7 @@ message.addEventListener('keypress', function(){
 // Listen for events
 socket.on('chat', function(data){
   feedback.innerHTML = "";
-  output.innerHTML += '<p><strong>' + data.title + ' </strong>' +  '<br/>' + data.question + '<br/>' + '<strong>' + data.handle + ': </strong>' +  data.message + '</p>' + '<a href="#" class="btn button-submit like-counter">Like</a><span class="click-text"><a id="clicks"></span>';
+  output.innerHTML += '<p><strong>' + data.title + ' </strong>' +  '<br/>' + data.question + '<br/>' + '<strong>' + data.handle + ': </strong>' +  data.message + '</p>' + '<a href="#" class="btn button-submit like-counter"><i class="far fa-heart"></i></a><span class="click-text"><a id="clicks"></span>';
   document.getElementById("clicks").innerHTML = clicks;
   $('.like-counter').click(function() {
     clicks += 1;
