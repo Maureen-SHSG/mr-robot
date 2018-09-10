@@ -10,7 +10,6 @@ var message = document.getElementById('message'),
     feedback = document.getElementById('feedback');
 
 
-
 // Emit events
 btn.addEventListener('click', function(){
   socket.emit('chat', {
@@ -23,7 +22,7 @@ btn.addEventListener('click', function(){
 message.addEventListener('keypress', function(){
   socket.emit('typing', handle.value);
 
-})
+});
 
 // Listen for events
 socket.on('chat', function(data){
