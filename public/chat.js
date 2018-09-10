@@ -39,7 +39,7 @@ message.addEventListener('keypress', function(){
 // Listen for events
 socket.on('chat', function(data){
   feedback.innerHTML = "";
-  output.innerHTML += '<p><strong>' + data.handle + ': </strong>' + data.message + '</p>';
+  output.innerHTML += '<p><strong>' + data.title + '</strong>' + '</br' + data.question + data.handle + ': </strong>' + data.message + '</p>';
 });
 
 socket.on('typing',function(data){

@@ -13,6 +13,10 @@ h2{
     color: #575ed8;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 73b689e9cfffb25390c82f14064f8b6e8bcd4d73
 #mario-chat{
     max-width: 600px;
     margin: 30px auto;
@@ -42,7 +46,13 @@ h2{
 }
 
 #output strong{
+<<<<<<< HEAD
     color: #575ed8;
+=======
+
+    color: darkslategrey;
+
+>>>>>>> 73b689e9cfffb25390c82f14064f8b6e8bcd4d73
 }
 
 label{
@@ -65,7 +75,13 @@ input{
 }
 
 button{
+<<<<<<< HEAD
     background: #575ed8;
+=======
+
+    background: darkslategrey;
+
+>>>>>>> 73b689e9cfffb25390c82f14064f8b6e8bcd4d73
     color: #fff;
     font-size: 18px;
     border: 0;
