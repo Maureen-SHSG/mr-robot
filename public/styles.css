@@ -20,7 +20,6 @@ h2{
 }
 
 
-
 #mario-chat{
 
     max-width: 600px;
@@ -79,7 +78,7 @@ h2{
 
 #output strong{
 
-    color: #575ed8;
+    color: darkslategrey;
 
 }
 
@@ -125,7 +124,7 @@ input{
 
 button{
 
-    background: #575ed8;
+    background: darkslategrey;
 
     color: #fff;
 
