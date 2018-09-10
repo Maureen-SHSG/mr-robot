@@ -10,11 +10,9 @@ var message = document.getElementById('message'),
     title = document.getElementById('title')
     question = document.getElementById('question');
 
-<<<<<<< HEAD
-=======
+
 var clicks = 0;
 
->>>>>>> 0b1e783d0cd76591d4654c8c9cf6336b0070b662
 // Emit events
 btn.addEventListener('click', function(){
   socket.emit('chat', {
