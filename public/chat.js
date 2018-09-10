@@ -9,11 +9,6 @@ var message = document.getElementById('message'),
     output = document.getElementById('output'),
     feedback = document.getElementById('feedback');
 
-
-<<<<<<< HEAD
-
-=======
->>>>>>> ddbfccf777a6cbcb3c8771f31a0033d00ae01da1
 // Emit events
 btn.addEventListener('click', function(){
   socket.emit('chat', {
@@ -26,11 +21,8 @@ btn.addEventListener('click', function(){
 message.addEventListener('keypress', function(){
   socket.emit('typing', handle.value);
 
-<<<<<<< HEAD
-})
-=======
 });
->>>>>>> ddbfccf777a6cbcb3c8771f31a0033d00ae01da1
+
 
 // Listen for events
 socket.on('chat', function(data){

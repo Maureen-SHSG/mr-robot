@@ -25,9 +25,5 @@ io.on('connection', function(socket){
     socket.on('typing', function(data){
       socket.broadcast.emit('typing', data);
     });
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> ddbfccf777a6cbcb3c8771f31a0033d00ae01da1
 });
