@@ -21,15 +21,9 @@ io.on('connection', function(socket){
       io.sockets.emit('chat', data);
     });
 
-<<<<<<< HEAD
-    socket.on('typing',function(data){
-      socket.broadcast.emit('typing',data)
-    });
-=======
 //Handle typing event
     socket.on('typing', function(data){
       socket.broadcast.emit('typing', data);
     });
 
->>>>>>> dc9f95832c6962ca2f806695600044bbc0c8a4f2
 });
