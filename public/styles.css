@@ -41,7 +41,9 @@ h2{
 
     height: 400px;
 
-    overflow: auto;
+    overflow-y: auto;
+
+    overflow-x: none;
 
     background: #f9f9f9;
 
@@ -137,4 +139,7 @@ button{
 
     border-radius: 0 0 2px 2px;
 
+}
+
+#message{
 }
