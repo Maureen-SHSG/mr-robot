@@ -10,6 +10,11 @@ var message = document.getElementById('message'),
     title = document.getElementById('title')
     question = document.getElementById('question');
 
+<<<<<<< HEAD
+=======
+var clicks = 0;
+
+>>>>>>> 0b1e783d0cd76591d4654c8c9cf6336b0070b662
 // Emit events
 btn.addEventListener('click', function(){
   socket.emit('chat', {
@@ -39,7 +44,13 @@ message.addEventListener('keypress', function(){
 // Listen for events
 socket.on('chat', function(data){
   feedback.innerHTML = "";
-  output.innerHTML += '<p><strong>' + data.title + '</strong>' + '</br' + data.question + data.handle + ': </strong>' + data.message + '</p>';
+  output.innerHTML += '<p><strong>' + data.title + ' </strong>' +  '<br/>' + data.question + '<br/>' + '<strong>' + data.handle + ': </strong>' +  data.message + '</p>' + '<a href="#" class="btn button-submit like-counter">Like</a><span class="click-text"><a id="clicks"></span>';
+  document.getElementById("clicks").innerHTML = clicks;
+  $('.like-counter').click(function() {
+    clicks += 1;
+  document.getElementById("clicks").innerHTML = clicks;
+  $('.like-counter').addClass("liked");
+  });
 });
 
 socket.on('typing',function(data){
