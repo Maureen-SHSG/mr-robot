@@ -7,8 +7,9 @@ var message = document.getElementById('message'),
     btn = document.getElementById('send'),
     output = document.getElementById('output'),
     feedback = document.getElementById('feedback'),
-    title = document.getElementById('title'),
+    title = document.getElementById('title')
     question = document.getElementById('question');
+
 
 var clicks = 0;
 
