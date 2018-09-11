@@ -1,3 +1,7 @@
+"script": {
+  "start": "node index.js"
+}
+
 {
   "name": "mr-robot",
   "version": "1.0.0",

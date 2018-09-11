@@ -1,10 +1,6 @@
 body{
     font-family: 'Nunito';
-<<<<<<< HEAD
     background-image: url("https://picsum.photos/1900/1000/?random");
-=======
-    background-image: url("https://picsum.photos/1200/1000/?random");
->>>>>>> 1f9a2861c536ec7c9d4f4d1ee786315601f9e964
 }
 
 .myheaders{
@@ -27,13 +23,7 @@ h2{
 }
 
 #chat-window{
-<<<<<<< HEAD
-
-    height: 250px;
-
-=======
     height: 400px;
->>>>>>> 9bf6c285444d42868ab5c1cc39a0f56fede192f2
     overflow-y: auto;
     overflow-x: none;
     background: #f9f9f9;
